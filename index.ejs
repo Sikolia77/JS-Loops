@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var i=1; 
+        for(; i<=5; i++){
+            document.write(i + "<br/>");
+        }
+
+        //second trial
+        var n = 1;
+        for (k=1; k<10; k++){
+            document.write(n + k + "<br/>");
+        }
+
+        //increasing the values inside the loop
+         var m = 9;
+         for (; m>0; ){
+             document.write(m);
+             m--
+         }
+         //to print EVEN values from 0 to 20
+         var x = 0;
+         for(; x<=20; x+=2){
+             document.write(x);
+         }
+
+         //WHILE LOOP
+         var t = 0;
+         while (t<=10){
+             document.write(t + "<br/>")
+             t++
+         }
+
+         var q = 1;
+         while (q <= 20){
+             document.write(q)
+             q++
+         }
+
+         //do while loop
+         var p = 20;
+         do{
+            document.write(p + "<br/>")
+            p ++
+         }
+         while(p <= 25);
+
+
+         var count = 1;
+         do{
+             document.write("hello <br/>")
+             count++;
+         }
+         while (count <=10);
+
+         //break and continue
+         //1.Break
+         for(w = 0; w <=10; w++){
+             if(w == 5){
+                 break;
+             }
+             document.write(w + "<br/>")
+         }
+          //2. Continue
+          for(v=0; v<=10; v++){
+              if(v == 5){
+                  continue;
+              }
+              document.write(v + "<br/>");
+          }
+
+          var sum = 0;
+          for(d=4;d<8;d++){
+              if(d==6){
+                  continue;
+              }
+              sum +=d;
+          }
+          document.write(sum);
+
+          var y = 0;
+          while(y<6){
+              y++;
+          }
+          document.write(y);
+
+          //switch
+          var day_of_week = 6;
+          switch(day_of_week){
+              case 1:
+              case 2: 
+              case 3: 
+              case 4: 
+              case 5:
+                  document.write("Day of the week");
+                  break;
+              case 6:
+                  document.write("Saturday");
+                  break;
+              default:
+                  document.write("Today is Sunday");
+                  break;    
+          }
+    </script>
+</body>
+</html>
